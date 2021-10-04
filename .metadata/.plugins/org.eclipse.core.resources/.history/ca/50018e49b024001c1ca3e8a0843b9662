@@ -1,0 +1,13 @@
+package net.ferdousgoogle.springboot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class GooglespringbbackendApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(GooglespringbbackendApplication.class, args);
+	}
+
+}

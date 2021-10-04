@@ -1,0 +1,5 @@
+package net.ferdousgoogle.springboot.model;
+
+public class User {
+
+}

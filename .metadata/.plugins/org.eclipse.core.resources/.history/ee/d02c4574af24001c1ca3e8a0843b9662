@@ -1,0 +1,5 @@
+package net.ferdousgoogle.springboot.controller;
+
+public class UserController {
+
+}
