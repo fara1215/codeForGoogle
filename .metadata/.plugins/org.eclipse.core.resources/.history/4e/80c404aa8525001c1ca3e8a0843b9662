@@ -1,0 +1,23 @@
+package google2;
+
+public class Vertex {
+
+	private int id;
+	private BST <Vertex> neighbors;
+	
+		public int getId() {
+			return this.id;
+		}
+		public void setId(int id) {
+			
+			this.id=id;
+		}
+		public BST<Vertex> getNeighbors() {
+			return this.neighbors;
+		}
+		public void setId(BST<Vertex> neighbors) {
+			
+			this.neighbors=neighbors;
+		}
+		
+}

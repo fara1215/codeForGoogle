@@ -1,0 +1,23 @@
+package google2;
+
+import java.util.HashMap;
+
+public class BFS {
+
+	
+	
+	
+	
+	public HashMap createAdj(){
+		int id;
+		Vertex v =new Vertex ();
+		v.setId(1);
+		v.setNeighbor(2);
+	}
+	
+	public static void main (String [] args) {
+		
+		BFS bfs=new BFS();
+		bfs.createAdj();
+	}
+}

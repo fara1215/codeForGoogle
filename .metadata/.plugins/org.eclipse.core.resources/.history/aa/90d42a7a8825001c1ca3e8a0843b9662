@@ -1,0 +1,11 @@
+package google2;
+
+public class BST<T> {
+	Node root;
+	public void insert(int id) {
+		Node id = new Node(id);
+		if(root == null) {
+			root = new
+		}
+	}
+}

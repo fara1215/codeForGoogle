@@ -1,0 +1,31 @@
+package google2;
+
+public class BST<T> {
+	Node root;
+	public void insert(int id) {
+		Node newId = new Node(id);
+		if(root == null) {
+			root = newId;
+		}else {
+			
+			Node current= root;
+			Node parent;
+			while(true) {
+				parent=current;
+				if (id<current.value) {
+					current=current.left;
+					if(current ==null) {
+						parent.left=newId;
+						return;
+					}
+				}else {
+					current=current.right;
+					if(current==null) {
+						parent.right=newId;
+						return;
+					}
+				}
+			}
+		}
+	}
+}
